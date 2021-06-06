@@ -18,22 +18,22 @@ public class Exercise4 {
      *Create a simple mad-lib program that prompts for a noun, a verb, an adverb, and an
      *adjective and injects those into a story that you create.*/
 
-        //Get noun {01}
+        //Get noun
         Scanner getNoun = new Scanner(System.in);
         System.out.print("Enter a noun: ");
         String Noun = getNoun.nextLine();
 
-        //Get verb {02}
+        //Get verb
         Scanner getVerb = new Scanner(System.in);
         System.out.print("Enter a verb: ");
         String Verb = getVerb.nextLine();
 
-        //Get adjective {03}
+        //Get adjective
         Scanner getAdj = new Scanner(System.in);
         System.out.print("Enter an adjective: ");
         String Adj = getAdj.nextLine();
 
-        //Get adverb {04}
+        //Get adverb
         Scanner getAdverb = new Scanner(System.in);
         System.out.print("Enter an adverb: ");
         String Adverb = getAdverb.nextLine();
